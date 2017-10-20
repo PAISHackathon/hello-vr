@@ -1,0 +1,58 @@
+{
+  "name": "hello-vue",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": " <>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "server": "nodemon"
+  },
+  "main": "server/index.js",
+  "dependencies": {
+    "aframe": "^0.7.0",
+    "aframe-arrow-component": "^1.0.0",
+    "aframe-environment-component": "^1.0.0",
+    "aframe-extras": "^3.12.4",
+    "aframe-layout-component": "^4.3.0",
+    "aframe-look-at-component": "^0.6.0",
+    "aframe-physics-system": "^2.1.0",
+    "annyang": "^2.6.0",
+    "browser-speak": "^0.1.0",
+    "debug": "^3.1.0",
+    "flickr-sdk": "^3.4.0",
+    "kcors": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "leapjs": "^0.6.4",
+    "moviedb": "^0.2.10",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.30.1",
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "nodemon": "^1.12.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^2.6.1",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "^7.10"
+  }
+}
